@@ -1,0 +1,276 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+.header1{
+    background: linear-gradient(to right,rgb(241, 142, 110),rgb(228, 169, 226));
+    padding: 30px;
+    height:150px ;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.header1 img{
+    width: 90px;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+
+.header-menus ul{
+display: flex;
+align-items: center;
+gap: 30px;
+list-style: none;
+font-style: none;
+}
+
+.header-menus ul li a{
+    text-decoration: none;   
+    color: black;
+}
+
+#search-icon{
+    margin-left: 20px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    padding: 18px;
+}
+
+.header-design h2{
+    color: #1e1d1b;
+    text-decoration-thickness: 2px;
+    padding: 30px;
+}
+
+.input{
+    padding: 20px;
+    width: 360px;
+}
+
+
+.icon-text {
+    display: block; /* Ensure the text is on a new line */
+    font-size: 18px; /* Adjust text size */
+    color: black; /* Change the text color as needed */
+}
+
+.icon-text-container{
+    margin-left: 30px;
+}
+
+#contact{
+    height: 30px;
+    width: 30px;
+}
+
+.icon-text1{
+    display: block;
+    font-size: 18px;
+}
+
+.headericon2{
+    margin-left: 30px;
+}
+
+.icon-text2{
+    display: block;
+    font-size: 18px;
+}
+
+.headericon2{
+    margin-left: 30px;
+}
+
+.headericon3{
+    margin-left: 30px;
+}
+
+
+.header-below{
+    background-color: #FFCA4B;
+    min-height: 60px;
+}
+
+.header-image img{
+    width: 100%;
+    height: 500px;
+}
+
+.header-design img{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    
+}
+.header-text{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+}
+
+.header-coupon{
+    padding: 30px;
+}
+
+.header-coupon img{
+    width: 700px;
+    height: 180px;
+    overflow: hidden;
+    border: 18px solid goldenrod;
+}
+
+.header-design2{
+    display: flex;
+}
+
+.goldborder{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+
+}
+
+.omg{
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 90px;
+    position: relative;
+    margin: 0 auto;
+    object-fit: cover;
+    top: 6px;
+}
+ 
+
+.for-firstround-button{
+    margin-top: 50px;
+    display: flex;
+}
+
+.for-firstround-button img{
+    display: block;
+    width: 256px;
+    height: 280px;
+}
+
+.for-second-button{
+    margin-top: 50px;
+    display: flex;
+}
+
+.for-second-button img{
+    display: block;
+    width: 256px;
+    height: 280px;
+}
+
+.for-img1,.for-img2,.for-img3,.for-img4,.for-img5,.for-img6{
+    background-color: black;
+    color: white;
+    padding-left: 13px;
+    padding-right: 33px;
+    padding-top:3px;padding-bottom:3px ;
+}
+
+.img-lab1,.img-lab2,.img-lab3,.img-lab4,.img-lab5,.img-lab6{
+    font-weight: bolder;
+    background-color: rgb(204, 125, 125);
+    color: black;
+    padding-top: 4px;
+    padding-left: 30px;
+    padding-right: 80px;
+    position: absolute;  /* Positioning absolute to place it on top of the image */
+   margin-top: -22px; /* Aligns the label to the top */
+}
+
+.round-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 8px;
+}
+
+#round-button1{ 
+    background-color: #FFCA4B;
+    color: #241e0f;
+    border-radius: 100%;
+    width: 13px;  
+    height: 13px;
+}
+
+#round-button2{ 
+    background-color: #FFCA4B;
+    color: #241e0f;
+    border-radius: 100%;
+    width: 13px;  
+    height: 13px;
+}
+
+.for-category h2{
+    margin-top: 20px;
+    display: flex;
+    background: linear-gradient(to right,gold,orange);
+    text-align: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+}
+
+.imp-image a img{
+    margin: 16px;
+    width: 220px;
+}
+
+.more-design{
+    margin-top: 26px;
+    border: 6px solid goldenrod;
+    margin-left: 60px;
+    margin-right: 60px;  
+    
+}
+
+.more-design h2{
+    margin-top: 30px;
+    color: goldenrod;
+    font-weight: bolder;
+    padding-left: 100px;
+    text-align: center;
+}
+
+
+
+.more-design h3,h4{
+    padding-left: 100px;
+    text-align: center;
+}
+
+.myntra{
+    width: 30px;
+}
+
+.google-but{
+    width: 130px;
+    outline: 0;
+    border: 0;
+}
+
+.google-but2{
+    margin: 3px;
+    width: 130px;
+    outline: 0;
+    border: 0;
+}
+
+.for-second-button{
+    display: none;
+}
